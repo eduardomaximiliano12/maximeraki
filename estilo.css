@@ -260,6 +260,66 @@ align-items:center;
 	text-align: center;
 	padding: 50px 0px 0px 0px;
 }
+
+/*Inicio css de Galeria*/
+/*Hover para botones del nav*/
+.button{
+	text-decoration: none;
+	padding: 10px 10px;
+	color: rgb(8, 8, 8);
+	background: #ffccc9;
+	box-shadow: 2px 0px 3px 1px #ad4ebb;
+	transition: all 200ms ease-out;
+}
+.button:hover {
+	color: #8f106f;
+	filter: opacity(1.2);
+	transform: scale(1.09);
+}
+/*Tarjetas de galeria*/
+/*Tarjeta 1*/
+.tarjeta1{
+	color: rgb(0, 0, 0);
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px;
+	cursor: pointer;
+	background-image: url(img/tarjeta1-439x100.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow: hidden;
+}
+.tarjeta1{
+	transition: all 200ms ease-out;
+}
+.tarjeta1 a{
+	color: black;
+	text-decoration: none;
+	transition: all 200ms ease-out;
+}
+/*Tarjeta 2*/
+.tarjeta2{
+	color: rgb(0, 0, 0);
+	position: relative;
+	border-radius: 5px;
+	box-shadow: 0px 5px 10px;
+	cursor: pointer;
+	background-image: url(img/tarjeta1.jpg);
+	background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+	overflow: hidden;
+}
+.tarjeta2{
+	transition: all 200ms ease-out;
+}
+.tarjeta2 a{
+	color: black;
+	text-decoration: none;
+	transition: all 200ms ease-out;
+}
+
                                         /*Inicio Media queries*/
 
 @media screen and (max-width: 768px){
